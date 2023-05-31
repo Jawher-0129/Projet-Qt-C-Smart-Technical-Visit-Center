@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QDialog" name="widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1325</width>
+    <height>662</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>901</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bind">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>500</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #1c3087, stop: 1 #1c3087);
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #bd9a06, stop: 1 #deb60d);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #004040;
+}
+
+QPushButton:pressed {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #004080, stop: 1 #002040);
+}</string>
+   </property>
+   <property name="text">
+    <string>Se connecter</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../image QT/2749040.png</normaloff>../image QT/2749040.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nickname">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 15px;
+    font-family: &quot;Arial&quot;;
+}
+
+QLineEdit:focus {
+    border: 2px solid #0000FF;
+    background-color: #F0F0F0;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Votre Nom</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="message">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>500</y>
+     <width>831</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 15px;
+    font-family: &quot;Arial&quot;;
+}
+
+QLineEdit:focus {
+    border: 2px solid #0000FF;
+    background-color: #F0F0F0;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Votre Message</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="send">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>500</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #1c3087, stop: 1 #1c3087);
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #bd9a06, stop: 1 #deb60d);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #004040;
+}
+
+QPushButton:pressed {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #004080, stop: 1 #002040);
+}</string>
+   </property>
+   <property name="text">
+    <string>Envoyer</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../image QT/2344221.png</normaloff>../image QT/2344221.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>10</y>
+     <width>1361</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../image QT/Screenshot_1.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_33">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>500</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+color: rgb(255, 255, 255);
+border-color:rgba(0,0,0,0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Message&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>bind</zorder>
+  <zorder>nickname</zorder>
+  <zorder>message</zorder>
+  <zorder>send</zorder>
+  <zorder>label_33</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
